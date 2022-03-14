@@ -1,10 +1,10 @@
-name: 'Mi primer workflow'
+name: Mi_primer_workflow
 on:
   push:
     branches: [ main ]
 jobs:
   Mi primer job:
-    name: 'Mi primer job'
+    name: Mi primer job
     runs-on: ubuntu-latest
     steps:
     - name: Imprimir
