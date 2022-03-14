@@ -4,11 +4,11 @@ on:
     branches: [ main ]
 jobs:
   Mi primer job:
-    name: Mi primer job
+    name: Mi_primer_job
     runs-on: ubuntu-latest
     steps:
     - name: Imprimir
       env:
-        MI_VARIABLE: 'Hola mundo'
+        MI_VARIABLE: Hola mundo
       run:
         echo $MI_VARIABLE
